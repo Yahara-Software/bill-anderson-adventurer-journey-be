@@ -39,6 +39,9 @@ for char in instructions:
             x += num
             
         num = ""
+        
+    else:
+        raise Exception("Invalid character in instructions sequence: '" + char + "'")
 
 
 dist = math.sqrt(x * x + y * y)
