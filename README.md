@@ -1,7 +1,7 @@
 # Instructions to use
 There are two python scripts which both accomplish the same thing using slightly different programming approachs.  `main.py` uses a procedural approach, whereas `functional-approach.py` uses a functional programming approach as the name suggests.
 
-On systems in which python3 is installed, either of these scripts can be run from the command line.  Travel to the the containing directory in your shell, and use the command (for the main.py example) `python3 main.py` (or just `./main.py` in systems which allow executable scripts like Linux/unix systems.  Ensure that the executable-mode bit is set for the scripts using `chmod +x *.py`).  There is an optional command-line argument of the "travelling instructions", which defaults to the value provided in `Adventurer Path.md` when no argument is provided.
+On systems in which python3 is installed, either of these scripts can be run from the command line.  Travel to the the containing directory in your shell, and use the command (for the main.py example) `python3 main.py` (or just `./main.py` in systems which allow executable scripts like Linux/unix systems.  Ensure that the executable-mode bit is set for the scripts using `chmod +x *.py`).  There is an optional command-line argument of the "travelling instructions" as descibed in `Adventurer Path.md`, and which defaults to the value provided in `Adventurer Path.md` when no argument is provided.
 
 
 
