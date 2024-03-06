@@ -21,9 +21,12 @@ directions= {
     "R": lambda num, x, y : ("", x + int(num), y)
 }
 
+# populate lambdas for each of the digit characters
 for digit in range (0, 10):
     digit = str(digit)
     directions[digit] = lambda num, x, y, d=digit : (num + d, x, y)
+    #d=digit argument captures the current value of digit variable into the closure
+
 
 for char in instructions:
     if char in directions:
